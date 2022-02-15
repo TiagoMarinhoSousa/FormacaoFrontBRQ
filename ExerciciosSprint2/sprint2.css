@@ -1,0 +1,56 @@
+body {
+    background-color: #ecececa6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: black;
+    min-height: 100vh;
+    padding: 0 30px;
+}
+
+div.title {
+    text-align: center;
+}
+
+div.title h1 {
+    font-size: 1.65rem;
+    color: #ec7600;
+}
+
+div.ib {
+    display: inline-block;
+    width: 48%;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: hsl(0, 4%, 85%);
+    margin-top: 20px;
+}
+
+div.principal {
+    background-image: url('/assets/img/ImagemRelampago.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;    
+}
+
+div.principal h1 {
+    color: yellow;
+    text-align: center;
+}
+
+div.secundaria {
+    background-image: url('/assets/img/janelaMolhada.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+div.secundaria h1 {
+    color: green;
+    text-align: center;
+}
+
+
+/* background-image: url('/_images/logo-brq.png');
+background-repeat: no-repeat;
+background-position: right top;
+background-size: 10%;
+background-attachment: fixed; */
