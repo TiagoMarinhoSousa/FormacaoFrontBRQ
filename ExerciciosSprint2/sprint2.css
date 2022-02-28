@@ -7,6 +7,7 @@ body {
     padding: 0 30px;
 }
 
+<<<<<<< HEAD
 .container {
     padding: 1rem;
     box-sizing: border-box;
@@ -18,6 +19,8 @@ body {
     justify-content: space-between;
 }
 
+=======
+>>>>>>> main
 div.title {
     text-align: center;
 }
@@ -27,20 +30,34 @@ div.title h1 {
     color: #ec7600;
 }
 
+<<<<<<< HEAD
 div.imgbck {
+=======
+div.ib {
+>>>>>>> main
     display: inline-block;
     width: 48%;
     height: 300px;
     padding: 5px;
     border: 1px solid blue;
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: hsl(0, 4%, 85%);
+>>>>>>> main
     margin-top: 20px;
 }
 
 div.principal {
+<<<<<<< HEAD
     background-image: url('/assets/img/logoBRQ.png');
     background-repeat: no-repeat;
     background-position: right top;
+=======
+    background-image: url('/assets/img/ImagemRelampago.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;    
+>>>>>>> main
 }
 
 div.principal h1 {
@@ -49,7 +66,11 @@ div.principal h1 {
 }
 
 div.secundaria {
+<<<<<<< HEAD
     background-image: url('/assets/img/logoBRQ.png');
+=======
+    background-image: url('/assets/img/janelaMolhada.png');
+>>>>>>> main
     background-position: left bottom;
     background-repeat: no-repeat;
 }
@@ -64,6 +85,7 @@ div.secundaria h1 {
 background-repeat: no-repeat;
 background-position: right top;
 background-size: 10%;
+<<<<<<< HEAD
 background-attachment: fixed; */
 
 #section-textos {
@@ -110,3 +132,6 @@ background-attachment: fixed; */
     text-align: justify;
     font-size: 2rem;    
 }
+=======
+background-attachment: fixed; */
+>>>>>>> main
