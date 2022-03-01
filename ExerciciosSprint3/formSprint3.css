@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(255, 247, 247);
+}
+
+form,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+div.box {
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+    top: 30px;
+    border: 1px solid #660000;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: #ecebeb;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+#formulario-login .box {
+    width: 350px;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+
+}
+
+div.box h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0 5px 0px;
+}
+
+div.box label {
+    width: 100%;
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color: #636363;
+    font-size: 12px;
+    float: left;
+    width: auto;
+    text-align: right;
+    padding: 5px 0;
+}
+
+div.box .input_text {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+
+div.box input:focus {
+    outline: none;
+    border: 1px solid #ec7000;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-text-fill-color: #000;
+    -webkit-box-shadow: 0 0 0px 1000px #FFF inset;
+}
+
+.button {
+    margin: 10px auto;
+    display: block;
+    padding: 8px;
+    background: #ec7000;
+    border: 1px solid #c95e01;
+    color: white;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background: #c95e01;
+    cursor: pointer;
+}
