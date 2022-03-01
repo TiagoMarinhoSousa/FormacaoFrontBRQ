@@ -74,7 +74,17 @@ background-attachment: fixed; */
     border: 1px solid #555454a6;
     margin-bottom: 1rem;
     border-radius: 10px;
-    box-shadow: 0.4em 0.4em 1em -0.2em rgb(161, 159, 155);;
+    box-shadow: 0.4em 0.4em 1em -0.2em rgb(161, 159, 155);
+    padding: 1rem;
+}
+
+.border-special {
+    border: 3px #919191a6;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+    border-left-color: #391e66;
 }
 
 .modelo-texto-1{
@@ -100,7 +110,7 @@ background-attachment: fixed; */
 .modelo-texto-2 h1 {
     text-align: center;
     font-size: 3rem;
-    padding: 0.725rem;
+    margin-bottom: 20px;
     color: #391e66;
     font-weight: bold;   
     text-decoration: underline;
