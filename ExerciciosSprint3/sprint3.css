@@ -12,7 +12,7 @@ body {
 }
 #menu-principal ul {
     display: flex;
-    background: #ec7000;    
+    background: rgb(101, 101, 192);    
     padding-right: 30px;
     margin: 0;
     justify-content: right;

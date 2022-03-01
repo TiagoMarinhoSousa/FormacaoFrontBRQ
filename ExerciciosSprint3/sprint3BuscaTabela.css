@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+.tabela {    
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+#tabela-busca {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#tabela-busca th {
+    width: 300px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 2px 2px 2px 5px;
+}
+
+#tabela-busca td {
+    width: 300px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 2px 2px 2px 5px;
+}
+
+.pesquisar {
+    width: 100%;
+    align-items: center;    
+    padding: 20px;
+     
+}
+.form-search {    
+    width: 350px; 
+   margin: 0 auto;
+}
+.input-search {
+    font-size: 18px;
+    height: 20px;
+    
+    border: 1px solid #9f9fa0;
+    border-radius: 4px;
+}
+
+.input-search input {
+    border: 1px solid black;
+}
+
+button {
+    background-color: #ec7000;
+    color: white;
+    padding: 0 2px;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ec7000;
+    border-radius: 0 4px 4px 0;
+    position: relative;
+    left: -11px;
+    top: -1px;
+    cursor: pointer;
+    font-size: 12px;
+}

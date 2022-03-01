@@ -17,3 +17,20 @@ h3 {
 .mb-padrao {
     margin-bottom: 10px;
 }
+
+.titulo-home {
+    color: rgb(70, 70, 190);
+    font-size: 3rem;
+}
+
+.div-principal{
+    width: 295px;
+    margin: 25px auto;
+}
+
+.home-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
