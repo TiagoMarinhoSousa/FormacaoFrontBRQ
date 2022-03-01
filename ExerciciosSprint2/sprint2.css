@@ -7,6 +7,20 @@ body {
     padding: 0 30px;
 }
 
+<<<<<<< HEAD
+.container {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.div-imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+=======
+>>>>>>> main
 div.title {
     text-align: center;
 }
@@ -16,20 +30,34 @@ div.title h1 {
     color: #ec7600;
 }
 
+<<<<<<< HEAD
+div.imgbck {
+=======
 div.ib {
+>>>>>>> main
     display: inline-block;
     width: 48%;
     height: 300px;
     padding: 5px;
     border: 1px solid blue;
+<<<<<<< HEAD
+    background-color: #ffffff;
+=======
     background-color: hsl(0, 4%, 85%);
+>>>>>>> main
     margin-top: 20px;
 }
 
 div.principal {
+<<<<<<< HEAD
+    background-image: url('/assets/img/logoBRQ.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+=======
     background-image: url('/assets/img/ImagemRelampago.jpg');
     background-repeat: no-repeat;
     background-position: right top;    
+>>>>>>> main
 }
 
 div.principal h1 {
@@ -38,7 +66,11 @@ div.principal h1 {
 }
 
 div.secundaria {
+<<<<<<< HEAD
+    background-image: url('/assets/img/logoBRQ.png');
+=======
     background-image: url('/assets/img/janelaMolhada.png');
+>>>>>>> main
     background-position: left bottom;
     background-repeat: no-repeat;
 }
@@ -53,4 +85,53 @@ div.secundaria h1 {
 background-repeat: no-repeat;
 background-position: right top;
 background-size: 10%;
+<<<<<<< HEAD
 background-attachment: fixed; */
+
+#section-textos {
+    margin-top: 1rem;    
+}
+
+.card-textos {
+    border: 1px solid #555454a6;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 1em -0.2em rgb(161, 159, 155);;
+}
+
+.modelo-texto-1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.modelo-texto-1 h1 {    
+    font-size: 2.5rem;
+    color: #ec7600; 
+    font-weight: bold;   
+    text-transform: lowercase;
+}
+
+.modelo-texto-1 p {   
+    font-size: 2rem;    
+}
+
+.modelo-texto-2{
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+.modelo-texto-2 h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.725rem;
+    color: #391e66;
+    font-weight: bold;   
+    text-decoration: underline;
+}
+
+.modelo-texto-2 p {
+    text-align: justify;
+    font-size: 2rem;    
+}
+=======
+background-attachment: fixed; */
+>>>>>>> main
