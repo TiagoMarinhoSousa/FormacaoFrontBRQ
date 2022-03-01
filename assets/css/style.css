@@ -9,3 +9,11 @@ h2 {
 h3 {
     font-size: 1.125rem;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.mb-padrao {
+    margin-bottom: 10px;
+}
