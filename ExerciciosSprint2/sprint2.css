@@ -120,3 +120,30 @@ background-attachment: fixed; */
     text-align: justify;
     font-size: 2rem;    
 }
+
+#section-diplay h1 {
+    text-align: center;
+    color: #195833;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.card-display{
+    height: 100px;
+    width: 33%;
+    border: 1px solid #391e66;
+    display: inline-block;
+    
+}
+
+.card-display.bck-roxo{
+    background-color: #7754af;
+}
+
+.card-display.bck-laranja{
+    background-color: #ec7000;
+}
+.card-display.bck-cinza{
+    background-color: #a5a4a7;
+}
+
