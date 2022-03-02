@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+#cidades li+li {
+    margin-top: 15px
+}
+
+#cidades img {
+    width: 60px;
+    height: 34.25px;
+
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#cidades ol p {
+    display: inline-block;
+    font-size: 16px
+}
+
+.titulo-cidades {
+    font-size: 2rem;
+    color: #6c3ee9;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.subtitulo-cidades {
+    margin-left: 10px;
+}
