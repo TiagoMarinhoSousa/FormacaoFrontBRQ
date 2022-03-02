@@ -75,14 +75,14 @@ select:-webkit-autofill {
     margin: 10px auto;
     display: block;
     padding: 8px;
-    background: #ec7000;
-    border: 1px solid #c95e01;
+    background: rgb(101, 101, 192);    
+    border: 1px solid rgb(84, 84, 199);
     color: white;
     width: 100px;
     border-radius: 4px;
 }
 
 .button:hover {
-    background: #c95e01;
+    background: rgb(84, 84, 199);
     cursor: pointer;
 }
