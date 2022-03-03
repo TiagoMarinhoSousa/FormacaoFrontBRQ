@@ -2,7 +2,6 @@
 
 .main {
     margin-bottom: 28px;
-    min-height: calc(100vh - 158px - 115px - 50px);
 }
 
 .main h1 {
@@ -18,7 +17,7 @@
     padding: 28px 0;
 }
 
-.artigo p {
+.artigo__texto p{
     font-weight: 400;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
@@ -26,7 +25,7 @@
     text-align: center;
 }
 
-.artigo a {
+.artigo__texto a {
     font-weight: 700;
     font-size: 12px;
     font-family: 'Dosis', sans-serif;
