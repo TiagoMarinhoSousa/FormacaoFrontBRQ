@@ -8,7 +8,9 @@ body {
 
 h1 {
     color: var(--black);
-    font: 700 18px 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -53,7 +55,9 @@ h1 {
     border-top-left-radius: 5px;
     color: var(--black);
     flex-grow: 1;
-    font: 400 16px 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     height: 100%;
     padding: 0 8px;
     width: 200px;
@@ -79,7 +83,9 @@ h1 {
 
 .cabecalho__menu .cabecalho__menu__item {
     display: inline-block;
-    font: 700 18px 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
     line-height: 1.7;
 }
 
@@ -115,11 +121,15 @@ h1 {
 }
 
 .footer__contato h2 {
-    font: 700 14px 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer__contato li {
-    font: 400 14px 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
     margin-top: 9px;
     text-indent: 20px;
 }

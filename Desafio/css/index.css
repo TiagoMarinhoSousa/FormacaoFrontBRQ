@@ -30,17 +30,27 @@ body {
 }
 
 article h2 {
-  font: 700 14px 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;  
+  line-height: 16.94px;
   margin-top: 18px;
 }
 
 article p {
-  font: 400 14px 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  line-height: 16.94px;
   margin-top: 15px;
 }
 
 article a {
-  font: 700 14px 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  
+  line-height: 16.1px;
   display: block;
   text-align: right;
   margin-top: 32px;
