@@ -9,3 +9,4 @@ console.log(sum('1',1));
 console.log(sum('1','1'));
 //Será concatenado as duas variáveis (strings) = 11
 
+export {};
