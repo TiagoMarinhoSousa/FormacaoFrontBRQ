@@ -1,6 +1,7 @@
-var var1 = "texto";
-var var2 = 5;
-var var3 = true;
+"use strict";
+let var1 = "texto";
+let var2 = 5;
+let var3 = true;
 console.log(typeof var1);
 console.log(typeof var2);
 console.log(typeof var3);
