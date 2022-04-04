@@ -42,3 +42,10 @@ let cart;
 cart = {
     key: "fi"
 };
+//Type inference
+let message2 = "mensagem definida";
+message2 = "string nova";
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+    //console.log(e.foo)
+});
