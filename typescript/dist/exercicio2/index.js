@@ -9,5 +9,5 @@ console.log(typeof var3);
 // var1 = 3;
 // var2 = true;
 // var3 = "texto";
-//Foi utilizada a inferência de tipos para passar a informação de qual tipo de dados cada variável poderá receber, mesmo o tipo não estando explicito....
+//Foi utilizada a inferência de tipos para passar a informação de qual tipo de dados cada variável poderá receber, mesmo o tipo não estando explicito e evitando trazer uma informação redundante ao código....
 //Na sequência apresenta erro nas linhas 10, 11 e 12, pq tenta atribuir um tipo diferente as variáveis 
