@@ -59,13 +59,29 @@ class Conta {
     }
 }
 
-const conta = new Conta('1234', '987654', 500);
-console.log('Agencia: ' + conta.getAgencia);
-console.log('Conta: ' + conta.getNumConta);
-console.log('Saldo: ' + conta.getSaldo);
+class ContaPF extends Conta{
+    private cpf: string;
 
-conta.depositar(300);
-conta.sacar(1000);
-conta.sacar(200);
+    constructor(agencia: string, numConta: string, saldo: number, cpf: string){
+        super(agencia, numConta, saldo);
+        this.cpf = cpf
+    }
+
+    set setCpf(cpf: string){
+        this.cpf = cpf;
+    }
+    get getCpf(){
+        return this.cpf;
+    }
+
+    protected imprimirSaldo(){
+        console.log('O saldo atual pessoa física é: R$' + this.getSaldo);
+    }
+}
+
+const contaPF = new ContaPF('1235', '565456-8', 120, '525.351.212-12');
+contaPF.depositar(100);
+contaPF.sacar(280);
+contaPF.sacar(50);
 
 export{};
