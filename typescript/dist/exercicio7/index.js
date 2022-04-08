@@ -21,30 +21,37 @@ class Conta {
     get getSaldo() {
         return this.saldo;
     }
-    depositar(valor) {
+    Depositar(valor) {
         if (valor <= 0) {
             console.log('Valor inválido!');
+            return;
         }
         this.saldo += valor;
-        console.log(`Depósito no valor de R$${valor} efetuado com sucesso! Saldo atual R$${this.saldo}`);
+        console.log(`Depósito no valor de R$${valor} efetuado com sucesso!`);
+        this.ImprimirSaldo();
     }
-    sacar(valor) {
+    Sacar(valor) {
         if (valor <= 0) {
             console.log('Valor para saque inválido!');
             return;
         }
         if (valor > this.saldo) {
-            console.log(`Saldo insuficiente! Seu saldo atual é: R$${this.saldo}`);
+            console.log(`Saque no valor de: R$${valor}. Saldo insuficiente!`);
+            this.ImprimirSaldo();
             return;
         }
         this.saldo -= valor;
         console.log(`Saque de R$${valor} efetuado com sucesso!`);
+        this.ImprimirSaldo();
+    }
+    ImprimirSaldo() {
+        console.log('O saldo atual é: R$' + this.saldo);
     }
 }
 const conta = new Conta('1234', '987654', 500);
 console.log('Agencia: ' + conta.getAgencia);
 console.log('Conta: ' + conta.getNumConta);
 console.log('Saldo: ' + conta.getSaldo);
-conta.depositar(300);
-conta.sacar(1000);
-conta.sacar(200);
+conta.Depositar(300);
+conta.Sacar(1000);
+conta.Sacar(200);
