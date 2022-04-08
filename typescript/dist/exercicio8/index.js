@@ -48,10 +48,22 @@ class Conta {
         console.log('O saldo atual é: R$' + this.saldo);
     }
 }
-const conta = new Conta('1234', '987654', 500);
-console.log('Agencia: ' + conta.getAgencia);
-console.log('Conta: ' + conta.getNumConta);
-console.log('Saldo: ' + conta.getSaldo);
-conta.depositar(300);
-conta.sacar(1000);
-conta.sacar(200);
+class ContaPF extends Conta {
+    constructor(agencia, numConta, saldo, cpf) {
+        super(agencia, numConta, saldo);
+        this.cpf = cpf;
+    }
+    set setCpf(cpf) {
+        this.cpf = cpf;
+    }
+    get getCpf() {
+        return this.cpf;
+    }
+    imprimirSaldo() {
+        console.log('O saldo atual pessoa física é: R$' + this.getSaldo);
+    }
+}
+const contaPF = new ContaPF('1235', '565456-8', 120, '525.351.212-12');
+contaPF.depositar(100);
+contaPF.sacar(280);
+contaPF.sacar(50);
